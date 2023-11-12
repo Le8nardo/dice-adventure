@@ -94,7 +94,9 @@ li {
 }
 
 #content {
+  text-align: center;
   margin-top:20px;/* Puoi regolare il margine superiore e inferiore desiderato */
   padding: 20px;
-  height: auto;  /* Cambia il colore dello sfondo se necessario */
+  height: 400px auto; /* Puoi regolare lo spazio interno desiderato */
+  background-color:;  /* Cambia il colore dello sfondo se necessario */
 }
