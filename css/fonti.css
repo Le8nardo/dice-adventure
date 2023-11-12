@@ -83,13 +83,6 @@ li {
   height: 300px;
 }
 
-#content {
-  text-align: center;
-  margin-top:20px;/* Puoi regolare il margine superiore e inferiore desiderato */
-  padding: 20px;
-  height: 400px auto; /* Puoi regolare lo spazio interno desiderato */
-  background-color:; /* Cambia il colore dello sfondo se necessario */
-}
 #testo > h5{
   text-align: center;
   margin-top: 40px;
@@ -98,4 +91,10 @@ li {
   text-align: left;
   margin-left: 120px;
   width:80%;
+}
+
+#content {
+  margin-top:20px;/* Puoi regolare il margine superiore e inferiore desiderato */
+  padding: 20px;
+  height: auto;  /* Cambia il colore dello sfondo se necessario */
 }
