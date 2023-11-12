@@ -106,7 +106,7 @@ li {
 
 .container .row > div {
   width: 27%; /* Larghezza desiderata per le colonne */
-  margin-left: 53px; /* Distanza desiderata tra le colonne */
+  margin-left: 53px auto; /* Distanza desiderata tra le colonne */
   color: #fff; /* Colore del testo delle colonne */
   padding: 10px; 
   height: 300px auto;
