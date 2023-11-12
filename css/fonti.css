@@ -1,0 +1,92 @@
+#titlepage{
+	font-family: verdana;
+	margin-left: 53px;
+}
+
+#titlepage a,#footer a{
+	text-decoration: none;
+	color: #585858;
+}
+
+.nav-tabs a.nav-link, #carouselExample .carousel-item a {
+    text-decoration: none;
+}
+.dropdown-item{
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+/* Nel tuo file prova.css */
+
+.custom-space {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #efefef;
+  height: 250px;
+  /* Aggiungi altre regole CSS se necessario */
+}
+.custom-space p{
+	margin-bottom: -30px;
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 60px;
+	text-align: left;
+}
+
+
+/* da qua comincia codice layout */
+body {
+	margin:0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+  font-family: verdana;
+}
+
+#content {
+    overflow: auto;
+}
+
+
+#nav,
+#feature,
+#footer {
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: #e8e8ee;
+    text-align: center;
+    color: #585888;
+
+}
+
+.article button{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#feature,
+.article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+
+.container .row > div {
+  width: 27%; /* Larghezza desiderata per le colonne */
+  margin-left: 53px; /* Distanza desiderata tra le colonne */
+  color: #fff; /* Colore del testo delle colonne */
+  padding: 10px; 
+  height: 300px;
+}
+
+#content {
+  text-align: center;
+  margin-top:20px;/* Puoi regolare il margine superiore e inferiore desiderato */
+  padding: 20px;
+  height: 400px; /* Puoi regolare lo spazio interno desiderato */
+  background-color:; /* Cambia il colore dello sfondo se necessario */
+}

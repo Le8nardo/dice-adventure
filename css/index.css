@@ -1,0 +1,119 @@
+#titlepage{
+	font-family: verdana;
+	margin-left: 53px;
+}
+
+#titlepage a,#footer a{
+	text-decoration: none;
+	color: #585858;
+}
+
+.nav-tabs a.nav-link, #carouselExample .carousel-item a {
+    text-decoration: none;
+}
+.dropdown-item{
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+/* Nel tuo file prova.css */
+
+#carouselExample.carousel  {
+    width: 90%; /* Puoi regolare la larghezza desiderata */
+    margin: 20px auto; /* Puoi regolare il margine superiore e inferiore desiderato */
+    /* Altre regole CSS se necessario */
+}
+
+.custom-space {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #efefef;
+  height: 258px auto;
+  /* Aggiungi altre regole CSS se necessario */
+}
+.custom-space p{
+	margin-bottom: -30px;
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 60px;
+	text-align: left;
+}
+
+
+/* da qua comincia codice layout */
+body {
+	margin:0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+  font-family: verdana;
+}
+
+#content {
+    overflow: auto;
+}
+
+
+#nav,
+#feature,
+#footer {
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: #bcbcc4;
+    text-align: center;
+    color: #585888;
+
+}
+
+.article button{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    height: 80px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#feature,
+.article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+
+.column1{
+	background-image: url(../img/combprova.jpg);
+}
+.column2{
+	background-image: url(../img/avvenprova.jpg);
+}
+.column3{
+	background-image: url(../img/socialprova.jpg);
+}
+
+.container .row > div {
+  width: 27%; /* Larghezza desiderata per le colonne */
+  margin-left: 53px; /* Distanza desiderata tra le colonne */
+  color: #fff; /* Colore del testo delle colonne */
+  padding: 10px; 
+  height: 300px;
+}
+#footer{
+	width: 100%;
+	height: 140px;
+	margin-left: 0px;
+	margin-top: 220px;
+}
